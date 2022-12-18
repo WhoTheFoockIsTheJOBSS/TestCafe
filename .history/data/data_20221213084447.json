@@ -1,0 +1,13 @@
+[
+    {
+        "userName": "tomsmith",
+        "password": "SuperSecretPassword!",
+        "expectedMassage": "You logged into a secure area!"
+    },
+
+    {
+        "userName": "tom",
+        "password": "SuperSecretPassword!",
+        "expectedMassage": "You logged into a secure area!"
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "testDemo": "testcafe chrome test/Session2/selectors.js",
+        "test:base": "testcafe chrome:headless test/Session3/visualTesting.js -s src/images --take-snapshot base",
+        "test:actual": "testcafe chrome:headless test/Session3/visualTesting.js -s src/images --take-snapshot actual",
+        "test:multiple-window": "testcafe chrome test/Session4/newWindow.js --skip-js-errors",
+        "test:assertions": "test chrome test/Assertion_Api/assertion.js --skip-js-errors"
+    },
+    "dependencies": {
+        "testcafe": "^2.1.0"
+    },
+    "devDependencies": {
+        "testcafe-blink-diff": "^0.5.3"
+    }
+}

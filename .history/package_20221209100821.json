@@ -1,0 +1,11 @@
+{
+    "scripts":{
+        "testDemo":"testcafe chrome test/Session2/selectors.js",
+        "tes:base": "testcafe chrome:headless test/Session3/visualTesting.js -s D:/TestCafe "
+        },
+
+    "dependencies":{
+        "testcafe":"^2.1.0"
+        }
+    
+}

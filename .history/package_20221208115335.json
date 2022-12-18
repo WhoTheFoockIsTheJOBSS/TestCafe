@@ -1,0 +1,10 @@
+{
+    "dependencies":{
+        "testcafe":"^2.1.0"
+        },
+
+    "scripts":{
+        "test":"testcafe chrome test/"
+        }
+}
+

@@ -1,0 +1,12 @@
+{
+    "scripts":{
+        "testDemo":"testcafe chrome test/Session2/selectors.js",
+        "test:base": "testcafe chrome:headless test/Session3/visualTesting.js -s src/images --take-snapshot base",
+        "test:actual": "testcafe chrome:headless test/Session3/visualTesting.js -s src/images --take-snapshot actual"
+        },
+
+    "dependencies":{
+        "testcafe":"^2.1.0"
+        }
+    
+}

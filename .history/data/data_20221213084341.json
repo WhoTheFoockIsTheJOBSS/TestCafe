@@ -1,0 +1,9 @@
+[
+    {
+        "userName": "tomsmith",
+        "password": "SuperSecretPassword!",
+        "expectedMassage": "You logged into "
+    },
+
+    {}
+]

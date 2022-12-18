@@ -1,0 +1,10 @@
+{
+    "dependencies":{
+        "testcafe":"^2.1.0"
+        },
+
+    "scripts":{
+        "testDemo":"testcafe chrome test/firstTest.js"
+        }
+}
+
